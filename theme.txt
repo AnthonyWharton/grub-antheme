@@ -1,0 +1,43 @@
+
+desktop-image: "background.png"
+
+title-text: ""
+message-color: "#eff0f1"
+
++ progress_bar {
+  id = "__timeout__"
+  left = 0
+  width = 30%
+  top = 98%
+  height = 2% 
+  show_text = false
+  fg_color = "#7fb800"
+  bg_color = "#222222"
+  border_color = "#222222"
+}
+
++ boot_menu {
+  left = 0
+  width = 30%
+  top = 46%
+  height = 8%
+  menu_pixmap_style = "boot_menu_*.png"
+  item_color = "#f3f4f5"
+  item_height = 96
+  item_icon_space = 48
+  item_padding = 0
+  item_spacing = 0
+  selected_item_color= "#f3f4f5"
+  selected_item_pixmap_style = "select_*.png"
+  icon_height = 72
+  icon_width = 144
+  scrollbar = false
+}
+
++ image {
+  left = 0
+  width = 30%
+  top = 0
+  height = 100%
+  file = "boot_menu_c.png"
+}
